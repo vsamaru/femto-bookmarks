@@ -4,7 +4,7 @@ const cheerio = require('cheerio')
 const faunadb = require('faunadb')
 const q = faunadb.query
 const adminClient = new faunadb.Client({
-  secret: process.env.FAUNADB_SERVER_SECRET
+  secret: "fnADpvETqSACC_OmdThmD-WvjqbHutdMYdYPDDEr"
 })
 
 async function getDetails (url) {
