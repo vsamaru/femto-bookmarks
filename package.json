@@ -7,7 +7,7 @@
     "cheerio": "^1.0.0-rc.3",
     "encoding": "^0.1.12",
     "faunadb": "^2.9.3",
-    "netlify-lambda": "^1.6.3",
+  
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   },
@@ -17,17 +17,17 @@
   },
   "scripts": {
     "test": "standard",
-    "build": "npx netlify-lambda build lambda --config ./webpack.functions.js && npx @11ty/eleventy",
-    "serve": "npx netlify-lambda build lambda --config ./webpack.functions.js && npx @11ty/eleventy --serve"
+    "build": "npx ./webpack.functions.js && npx @11ty/eleventy",
+    "serve": "npx  ./webpack.functions.js && npx @11ty/eleventy --serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hpost/femto-bookmarks.git"
+    "url": "git+https://github.com/vsamaru/femto-bookmarks.git"
   },
   "author": "hpost",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hpost/femto-bookmarks/issues"
+    "url": "https://github.com/vsamaru/femto-bookmarks/issues"
   },
-  "homepage": "https://github.com/hpost/femto-bookmarks#readme"
+  "homepage": "https://github.com/vsamaru/femto-bookmarks#readme"
 }
